@@ -1,0 +1,19 @@
+.tab-container{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border-right: 2px solid black;
+    height: 100%;
+}
+
+
+.tab{
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.tab:hover{
+    background: black;
+    color: white;
+}
